@@ -2,6 +2,10 @@ from dot_asterix import count_lines, get_z_row
 
 
 def main():
+    """
+    Entry point
+    """
+
     with open(r'C:\Users\USER\Documents\alice30.txt') as text:
         text_to_be_sent = text.read()
         print(count_lines(text_to_be_sent))
